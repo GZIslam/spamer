@@ -24,11 +24,12 @@ p{
 }
 #inputText{
     height: 150px;
-    width: 300px;
+    width: 500px;
+    margin-bottom: 20px;
 }
 #inputNumber{
     height: 150px;
-    width: 300px;
+    width: 500px;
 }
 .header{
     display: flex;
@@ -51,4 +52,13 @@ button{
 }
 input{
     padding: 5px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(7, 28, 29);
+    border-radius: 30px;
 }
