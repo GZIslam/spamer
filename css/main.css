@@ -20,7 +20,8 @@ h1{
 p{
     color: white;
     font-size: 20px;
-    text-align: center;
+    text-align: start;
+    width: 100%;
 }
 #inputText{
     height: 150px;
