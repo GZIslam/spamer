@@ -4,7 +4,7 @@ var inputNumber = $('#inputNumber');
 function send(){
     var number = inputNumber.val();
     var text = inputText.val();
-    var url = 'https://eu128.chat-api.com/instance142548/messages?token=udla6ab93y2f30g9';
+    var url = 'https://eu128.chat-api.com/instance142548/SendMessage?token=udla6ab93y2f30g9';
     var str = '';
     for(var i = 0; i < number.length; i++){
         if(number[i] == ' ') str+='';
